@@ -5,7 +5,7 @@ import { lusitana } from '@/app/ui/fonts';
 interface Breadcrumb {
   label: string;
   href: string;
-  active?: boolean;
+  active?: boolean
 }
 
 export default function Breadcrumbs({
