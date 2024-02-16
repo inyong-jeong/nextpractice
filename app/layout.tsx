@@ -4,9 +4,10 @@ import type { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
-  title: '넥스트',
-  description: '넥스트 프로젝트 연습',
-}
+  title: 'Acme Dashboard',
+  description: 'The official Next.js Course Dashboard, built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+};
 
 export default function RootLayout({
   children,
