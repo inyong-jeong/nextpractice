@@ -6,4 +6,4 @@ function getText<T>(text: T): T {
   return text
 }
 // let a: string = 3
-getText<string>('hi')
+// getText<string>('hi')
